@@ -1,0 +1,6 @@
+@Path2CodeDemo.Api_HostAddress = http://localhost:5155
+
+GET {{Path2CodeDemo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

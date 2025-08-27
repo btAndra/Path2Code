@@ -1,0 +1,67 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+## Ignore test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Ignore web publish files
+publish/
+*.pubxml
+*.publishproj
+
+## Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore Rider files
+.idea/
+
+## Ignore Entity Framework files
+Migrations/
+
+## Ignore secrets and config
+appsettings.*.json
+secrets.json
+
+## Ignore node modules (if using frontend)
+node_modules/
+
+## Ignore environment files
+.env
+
+## Ignore generated files
+Generated_Code/
+
+## Ignore Clean Architecture folders (optional)
+**/Path2CodeDemo.Api/bin/
+**/Path2CodeDemo.Api/obj/
+**/Path2CodeDemo.Application/bin/
+**/Path2CodeDemo.Application/obj/
+**/Path2CodeDemo.Domain/bin/
+**/Path2CodeDemo.Domain/obj/
+**/Path2CodeDemo.Infrastructure/bin/
+**/Path2CodeDemo.Infrastructure/obj/
+**/Tests/Path2CodeDemo.Api.Tests/bin/
+**/Tests/Path2CodeDemo.Api.Tests/obj/
