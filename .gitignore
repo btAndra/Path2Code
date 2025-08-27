@@ -38,8 +38,6 @@ _ReSharper*/
 ## Ignore Rider files
 .idea/
 
-## Ignore Entity Framework files
-Migrations/
 
 ## Ignore secrets and config
 appsettings.*.json
@@ -52,6 +50,9 @@ node_modules/
 .env
 
 ## Ignore generated files
+**/Path2CodeDemo.Api/logs/
+
+## Ignore log files
 Generated_Code/
 
 ## Ignore Clean Architecture folders (optional)
